@@ -1,4 +1,13 @@
 # LiveData support
+
+## Including in your project
+Eazy permissions is available in the Jcenter and divided into three modules so that based on your need you can include either livedata support in your project
+
+```groovy
+//For LiveData
+implementation 'com.github.hirensorathiya2022:Livedatapermission:1.0.0'
+```
+
 Requesting permission is just a simple method call to [`PermissionManager`](../livedatapermission/src/main/java/com/eazypermissions/livedatapermission/PermissionManager.kt) from your Activity/Fragment. It takes 3 parameters.
 1. An instance of AppCompactActivity or Fragment depending from where you are requesting permission.
 2. Request id.
