@@ -7,7 +7,7 @@ Eazy permissions is available in the Jcenter and divided into three modules so t
 //For LiveData
 implementation 'com.github.hirensorathiya2022:Livedatapermission:1.0.0'
 ```
-
+# How to use LiveData permission
 Requesting permission is just a simple method call to [`PermissionManager`](../livedatapermission/src/main/java/com/eazypermissions/livedatapermission/PermissionManager.kt) from your Activity/Fragment. It takes 3 parameters.
 1. An instance of AppCompactActivity or Fragment depending from where you are requesting permission.
 2. Request id.
